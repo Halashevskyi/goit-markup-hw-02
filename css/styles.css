@@ -4,13 +4,9 @@
     --accent-color: #2196F3;
     --title-color: #FFFFFF;
     --logo-color: #000000;
-    --button-text-color: #FFFFFF;
-    --button-portfolio-color: #212121;
     --button-portfolio-bg: #F5F4FA;
     --primary-background-color: #E5E5E5;
     --secondary-background-color: #2F303A;
-    --body-background-color:#FFFFFF;
-    --background-accent-color: #2196F3 ;   
 }
 
 .header-link.current {
@@ -21,7 +17,7 @@ body {
     font-family: 'Roboto' , sans-serif;
     font-size: 14px;
     color: var(--secondary-text-color);
-    background: var(--body-background-color);
+    background: var(--title-color);
     letter-spacing: 0.03em;
 }
 
@@ -52,7 +48,7 @@ body {
 }
 
 .header {
-background: var(--body-background-color);
+background: var(--title-color);
 }
 
 .header-logo {
@@ -111,15 +107,15 @@ background: var(--body-background-color);
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
-        color: var(--button-text-color);
-        background: var(--background-accent-color);
+        color: var(--title-color);
+        background: var(--accent-color);
         cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus 
-{color: var(--button-text-color);
-background: var(--background-accent-color);}
+{color: var(--title-color);
+background: var(--accent-color);}
 
 .description-title {
         font-weight: 700;
@@ -236,15 +232,15 @@ background: var(--background-accent-color);}
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
-        color: var(--button-portfolio-color);
+        color: var(--primary-text-color);
    background: var(--button-portfolio-bg);
    cursor: pointer;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-    color: var(--button-text-color);
-    background: var(--background-accent-color);
+    color: var(--title-color);
+    background: var(--accent-color);
 }
 
 .portfolio-link {
