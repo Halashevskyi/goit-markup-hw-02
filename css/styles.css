@@ -118,11 +118,12 @@ background: var(--title-color);
 background: var(--accent-color);}
 
 .description-title {
+        font-size: 14px;
         font-weight: 700;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--title-color); 
+        color: var(--primary-text-color); 
     }
 
 .description-text {
